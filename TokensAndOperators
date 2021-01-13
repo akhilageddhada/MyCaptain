@@ -1,0 +1,33 @@
+/*To find the size of int,char,float and double*/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int b;
+    char a;
+    float c;
+    double d;
+    cout<<"Size of char:"<<sizeof(a)<<" byte";
+    cout<<"\nSize of int:"<<sizeof(b)<<" bytes";
+    cout<<"\nSize of float:"<<sizeof(c)<<" bytes";
+    cout<<"\nSize of double:"<<sizeof(d)<<" bytes";
+    return 0;
+    }
+	
+  /*product of two numbers*/
+  #include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c;
+    
+    cout<<"Enter two numbers:";
+    cin>>a>>b;
+    c=a*b;
+    cout<<"\nProduct="<<c;
+    return 0;
+}
+
+    
+    
